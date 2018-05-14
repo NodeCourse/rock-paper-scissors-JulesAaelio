@@ -1,7 +1,14 @@
 html
     head
-        title Welcome on my awesome website!
+        title Rock, paper, scissors - JulesAaelio
         link(rel="stylesheet", href="/css/styles.css")
     body
         main
-            p Hello world
+            h1.centered Faites votre choix
+            div.flex
+                a(href='/result/paper')
+                    img(src='/images/paper.png')
+                a(href="/result/rock")
+                    img(src='/images/rock.png')
+                a(href='/result/scissors')
+                    img(src="images/scissors.png")

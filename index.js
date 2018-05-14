@@ -1,5 +1,5 @@
 const Express = require('express');
-var randomItem = require('random-item');
+const randomItem = require('random-item');
 const app = new Express();
 app.set('view engine', 'pug');
 app.use(Express.static('public'));

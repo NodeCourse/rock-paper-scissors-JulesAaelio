@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/NodeCourse/rock-paper-scissors-JulesAaelio/issues"
   },
-  "homepage": "https://github.com/NodeCourse/rock-paper-scissors-JulesAaelio#readme"
+  "homepage": "https://github.com/NodeCourse/rock-paper-scissors-JulesAaelio#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "express": "^4.16.3"
+  }
 }
